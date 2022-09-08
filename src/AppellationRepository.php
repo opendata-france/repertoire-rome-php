@@ -10,7 +10,7 @@ class AppellationRepository implements AppellationRepositoryInterface
 
     protected static function path(): string
     {
-        return __DIR__ . '/../etc/db/appellation.json';
+        return __DIR__ . '/../db/appellation.json';
     }
 
     public static function find(int $code): ?Appellation

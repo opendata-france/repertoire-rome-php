@@ -10,7 +10,7 @@ class DomaineRepository implements DomaineRepositoryInterface
 
     protected static function path(): string
     {
-        return __DIR__ . '/../etc/db/domaine.json';
+        return __DIR__ . '/../db/domaine.json';
     }
 
     public static function find(string $code): ?Domaine

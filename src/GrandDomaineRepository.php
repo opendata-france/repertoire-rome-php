@@ -10,7 +10,7 @@ class GrandDomaineRepository implements GrandDomaineRepositoryInterface
 
     protected static function path(): string
     {
-        return __DIR__ . '/../etc/db/grand-domaine.json';
+        return __DIR__ . '/../db/grand-domaine.json';
     }
 
     public static function find(string $code): ?GrandDomaine

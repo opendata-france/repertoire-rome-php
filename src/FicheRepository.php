@@ -10,7 +10,7 @@ class FicheRepository implements FicheRepositoryInterface
 
     protected static function path(): string
     {
-        return __DIR__ . '/../etc/db/fiche.json';
+        return __DIR__ . '/../db/fiche.json';
     }
 
     public static function find(string $code): ?Fiche
