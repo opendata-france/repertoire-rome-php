@@ -1,0 +1,18 @@
+{
+    "name": "opendata-france/repertoire-rome",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OpendataFrance\\RepertoireRome\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adrien Rosi",
+            "email": "adrienrosi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
